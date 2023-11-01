@@ -1,0 +1,55 @@
+/* the font family for the entire recipe site */
+.fonts{
+    font-family: Verdana, 'Times New Roman', Times, sans-serif;
+}
+
+/* This section holds CSS properties for the root html file */
+
+#main-headline1 {
+    font-weight: 800;
+    background-color: #ffff0080;
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* List Properties */
+.list {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+/* List-1 Properties */
+
+/* .list .list-1 {
+    font-size: 40px;
+    font-weight: bold;
+} */
+
+
+/* List-1, List-2 & List-3 shared properties */
+.list-1, 
+.list-2, 
+.list-3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* List-1 descendant selector(s) */
+
+/* .list .list-1 {
+    text-align: center;
+} */
+
+
+/* This section holds CSS properties for the 'Chicken Curry' html file */
+
+/* chicken curry headline ID */
+#main-headline2 {
+    font-weight: 800;
+    background-color: #ffff0080;
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+}
